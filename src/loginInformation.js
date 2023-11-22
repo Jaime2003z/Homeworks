@@ -1,0 +1,1 @@
+export const Data = [{user: "User120" , email: "user123@mail.com", password:"user123"}]

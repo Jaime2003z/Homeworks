@@ -1,0 +1,44 @@
+.containerMainApp {
+    text-align: center;
+}
+
+.containerLogin {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.containerHomePage {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    text-align: center;
+    margin: auto;
+}
+
+.containerAbout{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    background-color: rgb(76, 80, 80);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+}

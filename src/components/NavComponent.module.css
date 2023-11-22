@@ -1,0 +1,41 @@
+.principal {
+    background-color: rgb(76, 80, 80);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega sombra para efecto de elevación */
+}
+
+.principal ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.principal li {
+    margin-left: 20px;
+}
+
+.principal li:first-child {
+    margin-left: 0;
+}
+
+.principal a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.8s;
+}
+
+.principal a:hover {
+    color: #0a3065;
+}
+
+h1, p, input, button {
+    text-align: center;
+    padding: 0.5%;
+}
